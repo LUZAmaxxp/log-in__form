@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="projet.css" />
+    <link rel="stylesheet" href="../projet.css" />
   </head>
   <body>
     <link
@@ -14,11 +14,12 @@
     />
 
     <div class="login">
-      <h2 class="active">Log in</h2>
+      <h2 class="active">Sign up</h2>
 
       <form>
-        <input id="numb" type="text" class="text" name="e-mail" />
+        <input id="numb" type="email" class="text" name="e-mail" />
         <span>e-mail</span>
+        <p id="demo"></p>
 
         <br />
 
@@ -26,14 +27,14 @@
 
         <input id="emb" type="password" class="text" name="password" />
         <span>password</span>
-        <p id="demo"></p>
+        <p id="bemo"></p>
         <br />
 
-        <button class="signin" onclick="checkin(event)">Log In</button>
+        <button class="signin" onclick="addUser(event)">sign up</button>
 
         <hr />
       </form>
     </div>
-    <script src="projet.js"></script>
+    <script src="register.js"></script>
   </body>
 </html>
